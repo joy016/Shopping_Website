@@ -7,27 +7,37 @@ const NavBar = () => {
       <ul>
         <div className="flex justify-between items-center px-4 w-96 float-left">
           <li>
-            <Link href="/">Shop</Link>
+            <Link href="/" class="hover:text-green-300">
+              Shop
+            </Link>
           </li>
           <li>
-            <Link href="/">Contact</Link>
+            <Link href="/" class="hover:text-green-300">
+              Contact
+            </Link>
           </li>
           <li>
-            <Link href="/">About</Link>
+            <Link href="/home/MainHome" class="hover:text-green-300">
+              About
+            </Link>
           </li>
         </div>
 
         <div className="flex justify-between items-center px-4 w-60 float-right">
           <li>
-            <Link href="/">
+            <Link href="/" class="hover:text-green-300">
               <FaShoppingCart />
             </Link>
           </li>
           <li>
-            <Link href="/">Login</Link>
+            <Link href="/account/Login" class="hover:text-green-300">
+              Login
+            </Link>
           </li>
           <li>
-            <Link href="/">Register</Link>
+            <Link href="/" class="hover:text-green-300">
+              Register
+            </Link>
           </li>
         </div>
       </ul>

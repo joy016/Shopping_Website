@@ -8,9 +8,15 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <NavBar />
-      <Shirts />
-      <StudyBuddy />
+      <div class="relative">
+        <div className="fixed top-0 left-0 right-0">
+          <NavBar />
+        </div>
+        <div>
+          <Shirts />
+          <StudyBuddy />
+        </div>
+      </div>
     </>
   );
 }
